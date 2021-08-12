@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import './App.css';
 import {Home} from './component/Pages/Home/home';
-import {Switch, Route, Redirect, useHistory} from 'react-router-dom';
+import {Switch, Route, Redirect, useHistory, useLocation} from 'react-router-dom';
 import {LogIn} from './component/Auth/LogIn/logIn';
 import {Register} from './component/Auth/Register/register';
 import {User} from './component/User/user';
@@ -20,12 +20,16 @@ function App() {
     localStorage.removeItem('id')
   }
 
+  let currentUrl = useLocation().pathname;
   useEffect(() => {
-    if(token){
+    
+    let userUrl = ["/user", "/user/profile"];
+
+    if(token && userUrl.includes(currentUrl)) {
       setAuth(true)
-      history.push('/user')
+      history.push(currentUrl)
     }else{
-      history.push('/')
+      history.push(currentUrl)
     }
   },[])
   return (
