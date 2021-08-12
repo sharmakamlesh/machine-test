@@ -1,0 +1,66 @@
+.logInContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logInContainer h1 {
+    color: #2E2D4D;
+}
+
+.logInContainer input {
+    margin: .5rem 0;
+    width: 250px;
+    padding: .4rem .9rem;
+    outline: none;
+    border: none;
+    border: 1.5px solid rgb(170, 167, 167);
+    border-radius: 5px;
+}
+
+.logInContainer input:focus,
+.logInContainer input:hover {
+    border-color: rgba(71, 71, 253, 0.781);
+}
+
+.logInContainer input::placeholder{
+    letter-spacing: 1px;
+}
+
+.logInContainer button {
+    padding: .2rem 1rem;
+    margin: .5rem 0 0 0;
+    cursor: pointer;
+    color: white;
+    background: rgb(65, 65, 236);
+    outline: none;
+    border: none;
+    font-size: 1.05em;
+    border-radius: 5px;
+}
+
+.logInContainer button:hover,
+.logInContainer button:active {
+    background: rgb(23, 23, 207);
+}
+
+.register {
+    margin: 1rem 0 0 0;
+}
+
+.register a {
+    color: blue;
+}
+
+.register a:hover{
+    color: rgb(3, 3, 189);
+}
+
+.errorMessage {
+    color: red;
+    font-size: .8em;
+}

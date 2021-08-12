@@ -1,0 +1,58 @@
+.userDetails {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    border: 1px solid #8F8F8F;
+    border-radius:15px;
+    padding: 1rem .5rem;
+    margin: 0 1rem;
+}
+
+.userDetailsContainer h1 {
+    color: #1652DF;
+    margin: 0 0 1rem 0;
+}
+
+.userDetailsContainer span {
+    margin: 0 0 .5rem 0;
+    color: #ADADAD;
+}
+
+.home button {
+    padding: .2rem 1rem;
+    margin: .5rem 0 0 0;
+    cursor: pointer;
+    color: white;
+    background: #0565f5;
+    outline: none;
+    border: none;
+    font-size: 1.05em;
+    border-radius: 5px;
+}
+
+.userDetailsContainer button:hover,
+.userDetailsContainer button:active {
+    background: #0049b6;
+}
+
+.logOut button {
+    padding: .2rem .7rem;
+    cursor: pointer;
+    color: white;
+    background: #fa5412;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+}

@@ -1,0 +1,39 @@
+.btnContainer {
+    max-width: 1200px;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnContainer button {
+    margin: 0 .5rem;
+    padding: .3rem 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: white;
+    transition: all .2s ease;
+}
+
+.btnContainer .logInBtn {
+    background-color: #610CE9;
+}
+
+.btnContainer .logInBtn:hover,
+.btnContainer .logInBtn:active {
+    background-color: #772AF4;
+}
+
+.btnContainer .RegisterBtn {
+    background-color: #a231ee;
+}
+
+.btnContainer .RegisterBtn:hover,
+.btnContainer .RegisterBtn:active {
+    background-color: #8512d1;
+}

@@ -1,0 +1,40 @@
+.userDetails {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewProfileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.viewProfileContainer h1 {
+    color: #6047FF;
+}
+
+.viewProfileContainer button {
+    padding: .2rem 1rem;
+    margin: .5rem 0 0 0;
+    cursor: pointer;
+    color: white;
+    background: #046ffa;
+    outline: none;
+    border: none;
+    font-size: 1.05em;
+    border-radius: 5px;
+}
+
+.logOut button {
+    padding: .2rem .7rem;
+    cursor: pointer;
+    color: white;
+    background: #fa5412;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+}

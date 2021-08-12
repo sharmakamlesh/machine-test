@@ -1,0 +1,24 @@
+.header {
+    background: #1C1B23;
+    color: white;
+    padding: .5rem 1rem;
+}
+
+.header nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 45px;
+    margin: 0 .5rem 0 0;
+}

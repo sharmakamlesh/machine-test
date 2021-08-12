@@ -1,0 +1,80 @@
+.registerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerContainer .heading {
+    color: #843DF5;
+}
+
+.registerContainer input {
+    margin: .5rem 0;
+    width: 250px;
+    padding: .4rem .9rem;
+    outline: none;
+    border: none;
+    border: 1.5px solid rgb(170, 167, 167);
+    border-radius: 5px;
+}
+
+.registerContainer input:focus,
+.registerContainer input:hover {
+    border-color: #a231ee;
+}
+
+.registerContainer input::placeholder{
+    letter-spacing: 1px;
+}
+
+.registerContainer input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+.registerContainer button {
+    padding: .2rem 1rem;
+    margin: .5rem 0 0 0;
+    cursor: pointer;
+    color: white;
+    background: #a231ee;
+    outline: none;
+    border: none;
+    font-size: 1.05em;
+    border-radius: 5px;
+}
+
+.registerContainer button:hover,
+.registerContainer button:active {
+    background: #8e1adb;
+}
+
+.logIn {
+    margin: 1rem 0 0 0;
+}
+
+.logIn a {
+    color: blue;
+}
+
+.logIn a:hover{
+    color: rgb(3, 3, 189);
+}
+
+/*=====================Error Styling============================*/
+.firstNameError {
+    border: 1.5px solid red;
+}
+
+.error {
+    color: red;
+    font-size: .9em;
+    margin: .5rem 0;
+}
+
+.success {
+    color: rgb(44, 252, 44);
+}
